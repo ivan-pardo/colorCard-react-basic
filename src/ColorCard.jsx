@@ -1,5 +1,5 @@
 const ColorCard = (props) => {
-  const {nombre, colores = [], likes, fecha, } = props
+  const {nombre, colores = [], likes, fecha, } = props.colorCard
   return (
     <div className="colorCard">
       <h3>{nombre}</h3>

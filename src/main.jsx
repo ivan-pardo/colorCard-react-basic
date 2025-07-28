@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 import { ColorCard } from './ColorCard.jsx'
+
 const colores = [
   {
     nombre: "Sunset Vibes",
@@ -14,9 +14,9 @@ const colores = [
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
-      colores.map((color, index) => {
-        <ColorCard key={index} />
-      })
+      colores.map((color, index) => (
+        <ColorCard key={index} colorCard = {color} />
+      ))
     }
   </StrictMode>,
 )
