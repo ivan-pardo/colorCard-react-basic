@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.colorCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+}
+.colorContainers{
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+.size1{
+  width: 200px;
+  height: 70px;
+}
+.size2{
+  width: 200px;
+  height: 50px;
+}
+.size3{
+  width: 200px;
+  height: 40px;
+}
+.size4{
+  width: 200px;
+  height: 30px;
+}
